@@ -19,6 +19,6 @@ to parse your run results and output a jUnit XML formatted report named `report.
 dbt-junitxml parse target/run_results.json report.xml
 ```
 
-## Limitations
+## Notes
 
-Currently, only v4 of the [Run Results](https://docs.getdbt.com/reference/artifacts/run-results-json) specifications is supported.
+Currently, v4 and v5 of the [Run Results](https://docs.getdbt.com/reference/artifacts/run-results-json) specifications are both supported.
